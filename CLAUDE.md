@@ -21,16 +21,20 @@ Ao terminar, atualize o PROGRESSO.md no mesmo pull request.
 - Texto gerado por IA fica marcado ("resumo automático, confira o original") com link.
 - O site é independente e não oficial: sem brasão do município nem logomarca da Câmara.
 - Alertas com "revisão humana" só vão ao ar com aprovação do Henrique.
-- Sem nota geral única nem ranking de melhores e piores.
+- Sem nota geral única nem ranking de melhores e piores. O índice de atividade e a coerência com pautas estão fora da primeira versão (docs/01, D12 e D13): não calcular nem exibir.
+- Dados pessoais: a API da Câmara devolve CPF, e-mail e telefone dos vereadores. Nunca pedir nem salvar esses campos; o repositório é público (docs/02, seção 2.1).
+- Saída de IA só entra em dados/ia/ depois da validação mecânica do docs/07, seção 5. Pedidos de providências não passam por IA.
+- Não calcular variação de patrimônio entre eleições.
 
 ## Identidade visual (resumo do 04)
-Cores: azul-pelotas #105EA8, marinho #0A3965, fundo #F5F5F5, branco. Sem vermelho em alertas. Public Sans e Source Serif 4. Celular primeiro, WCAG 2.1 AA. Proibido o visual "de IA" listado no 04, seção 4.
+Cores: azul-pelotas #105EA8, marinho #0A3965, fundo #F5F5F5, branco. Sem vermelho em alertas. Public Sans e Source Serif 4, servidas pelo próprio site. Celular primeiro, WCAG 2.1 AA. Aviso de independência no topo de toda página. Páginas com endereço próprio, sem abas. Maquete aprovada pelo Henrique antes de programar o site. Proibido o visual "de IA" listado no 04, seção 4.
 
 ## Organização do repositório
 - docs/: decisões do projeto (versão que vale)
 - coleta/: um script por fonte
-- dados/brutos/: coletado sem alteração, com data
-- dados/tratados/: dados no modelo do docs/05, seção 4
+- .github/workflows/: testes em pull request e coleta diária (GitHub Actions)
+- dados/brutos/: coletado com data, só os campos permitidos
+- dados/tratados/: dados no modelo do docs/05, seção 4, em arquivos por mês e por tipo
 - dados/ia/: resumos e classificações, com modelo e data
 - site/: código do site
 - testes/: verificações automáticas dos dados
@@ -39,7 +43,7 @@ Cores: azul-pelotas #105EA8, marinho #0A3965, fundo #F5F5F5, branco. Sem vermelh
 ## Como trabalhar
 - Branch nova a partir de main e pull request em rascunho, com título em português que diga o que muda. Uma tarefa por thread.
 - Rode os testes antes de dizer que terminou e cole as linhas de resultado.
-- Coleta: respeite robots.txt, intervalo entre pedidos e identificação do robô (docs/02). Coleta não usa IA.
+- Coleta: respeite robots.txt, intervalo entre pedidos (2 s; SAPL 60 s; TSE 10 s) e identificação do robô com o e-mail do projeto, nunca o pessoal do Henrique (docs/02). Coleta não usa IA.
 - Não invente dados, não simule fontes, não use exemplos no lugar de dados reais sem avisar.
 - Nunca coloque senhas, tokens ou chaves no código ou no repositório.
 - Fatos mudam (vereadores, URLs, formato da API): confira na fonte e diga de onde veio.

@@ -8,7 +8,7 @@ O site fala de pessoas com nome e foto. O risco jurídico maior está em textos 
 - publica fatos documentados, nunca interpretações sobre intenção ou caráter;
 - usa as regras de linguagem do 03, seção 4 (palavras proibidas, modelo de texto, cor neutra);
 - deixa a palavra final de qualquer alerta marcado "revisão humana" com o Henrique, depois de conferir os documentos;
-- oferece ao vereador um canal para enviar contexto, publicado ao lado do dado;
+- oferece ao vereador um canal para enviar contexto, publicado ao lado do dado, com prazo e processo definidos (seção 9);
 - corrige erros rápido e registra a correção publicamente.
 
 ## 2. Quem assina o site
@@ -23,6 +23,7 @@ Decidido em 23/10/2026 (D8 no 01): o Henrique assina como pessoa física. Pelo q
 - Segundo o Serpro, dados pessoais de acesso público podem ser tratados considerando a finalidade, a boa-fé e o interesse público que justificaram a divulgação. A finalidade do portal (transparência sobre o mandato) é compatível com dados divulgados por transparência pública.
 - Tratar só o que se relaciona ao mandato: atuação, votos, falas públicas, gastos públicos, emendas, candidatura e patrimônio declarado ao TSE.
 - Não publicar: CPF, endereço residencial, telefone pessoal, familiares, vida privada, saúde.
+- Atenção: a API pública do Portal Legislativo devolve CPF, e-mail e, para alguns, telefone dos vereadores (conferido em 10/11/2026). O repositório do projeto é público, então guardar a resposta inteira da API já seria publicar. A coleta nunca pede esses campos e um teste automático barra arquivos com formato de CPF ou telefone (02, seção 2.1; 05, seção 3). O e-mail institucional do gabinete só entra se vier de página oficial da Câmara feita para divulgá-lo.
 - Doadores de campanha pessoas físicas: mostrar valores agregados e os maiores doadores; evitar expor CPF ou dados que identifiquem pequenos doadores além do que o próprio TSE exibe.
 - Servidores e assessores de gabinete: citar só o necessário para o indicador de gastos, sem perfis individuais.
 
@@ -44,6 +45,17 @@ Usar as fotos oficiais publicadas pela Câmara, com crédito. Não usar o brasã
 
 ## 8. Antes de publicar (checklist da Fase 6)
 - Revisão por advogado das páginas Sobre e Como calculamos, dos modelos de texto dos alertas e de uma página de vereador completa.
+- Perguntas a levar ao advogado: a Lei 13.188/2015 (direito de resposta) alcança um site pessoal como este? As regras eleitorais sobre conteúdo gerado por IA se aplicam a resumos automáticos de um portal informativo? Vale seguro ou associação (seção 2)?
+- Processo de direito de resposta e correção funcionando e testado (seção 9).
 - Página de contato e de correções funcionando.
 - Aviso de independência visível.
 - Nenhuma palavra da lista proibida do 03 em todo o site (o Claude Code pode verificar com busca automática).
+
+## 9. Pedido de correção e direito de resposta
+Pelo texto da Lei 13.188/2015, quem se sente ofendido por matéria divulgada tem 60 dias para pedir resposta ou retificação, e o veículo tem 7 dias para publicar antes de caber ação judicial. Se essa lei alcança um site pessoal é pergunta para o advogado (seção 8); o projeto age como se alcançasse, porque custa pouco.
+- Canal: o e-mail exclusivo do projeto (01, D18), informado na página Sobre e em cada página de vereador.
+- Rotina: o Henrique confere a caixa pelo menos duas vezes por semana.
+- Prazo interno: resposta a quem escreveu em até 5 dias corridos, com uma de três saídas: corrigir o dado, publicar o contexto enviado ao lado do dado, ou explicar por que o dado fica como está, com o link do documento de origem.
+- Registro: toda correção entra na página pública de correções, com data, o que mudou e por quê.
+- Enquanto um pedido estiver em análise e houver dúvida séria sobre o dado, o item sai do ar até a decisão.
+- Guardar o e-mail recebido e a resposta.

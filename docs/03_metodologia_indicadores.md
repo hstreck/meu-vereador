@@ -1,10 +1,10 @@
 # Metodologia dos indicadores, níveis e alertas
-Domínio: cálculo e exibição de indicadores sobre vereadores | Redigido por: PromptArchitect em 23/10/2026 | Dono: Henrique | Status: proposta inicial; limiares e pesos precisam ser calibrados com dados reais na Fase 5 e revisados conforme o 06
+Domínio: cálculo e exibição de indicadores sobre vereadores | Redigido por: PromptArchitect em 23/10/2026 | Dono: Henrique | Status: proposta inicial, revisada em 17/11/2026 (decisões D12, D13 e D17 no 01); limiares precisam ser calibrados com dados reais na Fase 5 e revisados conforme o 06
 
 ## 1. Princípios (valem para todos os indicadores)
 1. Indicador mede atividade registrada, não caráter. Nenhum indicador diz se o vereador é bom, honesto ou competente.
 2. Cálculo aberto: cada barra ou nível tem um link "como calculamos" com a fórmula, as fontes, o período e o que o indicador não mede.
-3. Sem nota geral única e sem ranking de "melhores e piores" na página inicial. Uma nota única esconde escolhas de peso e convida à leitura de julgamento moral. Cada indicador aparece separado; o índice de atividade (seção 3) é a única composição, com pesos públicos.
+3. Sem nota geral única e sem ranking de "melhores e piores" na página inicial. Uma nota única esconde escolhas de peso e convida à leitura de julgamento moral. Cada indicador aparece separado. A única composição prevista, o índice de atividade (seção 3), está fora da primeira versão.
 4. Comparação com a Câmara, não com uma régua inventada: mostrar o valor do vereador ao lado da mediana dos vereadores no mesmo período. A mediana é o valor do meio quando todos são postos em ordem; ela não é puxada por um caso extremo, como a média seria.
 5. Normalizar pelo tempo de mandato: suplentes e quem assumiu no meio do período são comparados por mês de exercício.
 6. Papéis diferentes: o presidente da Câmara vota só em situações específicas e costuma propor menos; líderes de bancada falam mais. Mostrar o papel ao lado dos indicadores e não penalizar o presidente nos itens que o cargo afeta.
@@ -15,13 +15,14 @@ Domínio: cálculo e exibição de indicadores sobre vereadores | Redigido por: 
 Para cada um: pergunta que responde, cálculo, fonte, o que não mede.
 
 **I1 Presença em sessões plenárias**
-Pergunta: em quantas sessões ele estava presente? Cálculo: presenças registradas dividido pelas sessões do período em que estava em exercício; faltas justificadas aparecem separadas das não justificadas. Fonte: atas ou registros de presença. Não mede: participação no debate.
+Pergunta: em quantas sessões ele estava presente? Cálculo: presenças registradas dividido pelas sessões do período em que estava em exercício; faltas justificadas aparecem separadas das não justificadas, se a fonte distinguir. Fonte: registro de presença por sessão da API do Portal Legislativo (02, seção 2.1), sem IA; as atas servem só de conferência. Mostrar o valor real (por exemplo, "presente em 92 de 100 sessões") ao lado da mediana. Não mede: participação no debate nem permanência até o fim da sessão.
 
 **I2 Atuação em comissões**
 Pergunta: de quais comissões participa e quanto trabalha nelas? Cálculo: comissões das quais é membro, presença nas reuniões, pareceres relatados. Fonte: portal legislativo, comissões. Não mede: qualidade dos pareceres.
 
 **I3 Proposições por tipo**
-Pergunta: o que ele apresenta? Cálculo: contagem por tipo, sempre separada: projetos de lei e de resolução; emendas a projetos; pedidos de informações e requerimentos de fiscalização; pedidos de providências (pedidos ao Executivo, como retirar entulho ou consertar uma rua; em outras Câmaras se chamam indicações); moções; homenagens e denominações (títulos, nomes de rua, datas comemorativas). Fonte: proposições. Não mede: relevância. Atenção: em Pelotas os pedidos de providências são de longe o tipo mais numeroso (em 23/10/2026 a numeração de 2026 já passava de 17.500, contra menos de 1.000 pedidos de informações). Somar tudo num total único transformaria quem faz mais pedidos de buraco em "mais produtivo". Nunca exibir só o total. Os nomes exatos dos tipos vêm da API (02, seção 2.1) e devem ser mapeados para estes grupos na Fase 2.
+Pergunta: o que ele apresenta? Cálculo: contagem por tipo, sempre separada: projetos de lei e de resolução; emendas a projetos; pedidos de informações e requerimentos de fiscalização; pedidos de providências (pedidos ao Executivo, como retirar entulho ou consertar uma rua; em outras Câmaras se chamam indicações); moções; homenagens e denominações (títulos, nomes de rua, datas comemorativas). Fonte: proposições. Não mede: relevância. Atenção: em Pelotas os pedidos de providências são de longe o tipo mais numeroso (em 23/10/2026 a numeração de 2026 já passava de 17.500, contra menos de 1.000 pedidos de informações). Somar tudo num total único transformaria quem faz mais pedidos de buraco em "mais produtivo". Nunca exibir só o total. Os nomes exatos dos tipos vêm da API (02, seção 2.1) e devem ser mapeados para estes grupos na Fase 2; a API também devolve INDICAÇÃO, EMENDA, PARECER e MEMORANDO, que precisam de grupo ou de exclusão justificada.
+Autoria conjunta: uma proposição com mais de um autor conta inteira para cada autor e aparece marcada como "em conjunto com"; nunca é dividida em frações. Proposições de autoria da Mesa, de comissão ou do Executivo não contam para vereador individual.
 
 **I4 Resultado das proposições**
 Pergunta: o que aconteceu com o que ele propôs? Cálculo: por tipo, quantas foram aprovadas, viraram lei, estão em tramitação, foram arquivadas ou retiradas; tempo médio de tramitação. Fonte: proposições e legislação. Não mede: efeito da lei na vida real.
@@ -30,7 +31,7 @@ Pergunta: o que aconteceu com o que ele propôs? Cálculo: por tipo, quantas for
 Pergunta: com quais assuntos ele mais trabalha? Cálculo: distribuição das proposições, falas e votos nominais pelos temas da taxonomia (07), com a contagem de cada um. Fonte: classificação por IA revisada (07). Não mede: profundidade no tema.
 
 **I6 Participação nos debates**
-Pergunta: ele fala nas sessões, e sobre o quê? Cálculo: número de pronunciamentos registrados em ata por sessão e temas das falas, com resumo neutro de cada fala e link para a ata. Fonte: atas. Não mede: qualidade do argumento. Depende do detalhe das atas (02, seção 5).
+Pergunta: ele fala nas sessões, e sobre o quê? Cálculo: número de pronunciamentos registrados em ata por sessão e temas das falas, com resumo neutro de cada fala e link para a ata. Fonte, por ordem de preferência: lista de oradores e tempo de fala da API, se a Câmara preencher (a confirmar na Fase 1); atas. Quem falou e por quanto tempo nunca vem da IA quando a API tiver o dado. Resumos de fala seguem as travas do 07, seção 3. Não mede: qualidade do argumento. Depende do detalhe das atas (02, seção 5).
 
 **I7 Como votou**
 Pergunta: como ele votou em cada votação nominal? Cálculo: lista de votos nominais com o tema, o resultado e o voto dele; percentual de votos iguais à maioria da Câmara e iguais ao voto do líder do governo (quando houver líder registrado). Fonte: atas e registros de votação. Não mede: votações simbólicas, que não registram o voto individual; o site diz isso na página.
@@ -42,12 +43,20 @@ Pergunta: quanto e em que o gabinete gasta? Cálculo: soma por categoria e por m
 Pergunta: para onde ele mandou dinheiro do orçamento? Cálculo: valor por área, por beneficiário e por bairro, e situação de execução (empenhada, paga, não executada). Fonte: prefeitura (02, seção 3). Não mede: resultado da obra ou serviço. Atenção: emenda não é gasto do gabinete; mostrar em seção própria, com explicação do que é emenda impositiva.
 
 **I10 Coerência entre pautas declaradas e atuação**
-Pergunta: ele trabalha pelos temas que diz defender? Ver seção 5. Indicador experimental.
+Fora do roteiro (01, D13): registrado como ideia para depois. A seção 5 fica guardada como ponto de partida, sem fase marcada.
 
 **I11 Trajetória eleitoral e financiamento de campanha**
-Pergunta: de onde veio o dinheiro da campanha e como mudou o patrimônio declarado? Cálculo: receitas por origem (partido, pessoa física, recursos próprios), maiores doadores em valor agregado, bens declarados por eleição. Fonte: TSE. Sem nota; é informação de contexto. Não mede: origem lícita ou ilícita.
+Pergunta: de onde veio o dinheiro da campanha e que patrimônio ele declarou em cada eleição? Cálculo: receitas por origem (partido, pessoa física, recursos próprios), maiores doadores em valor agregado, total de bens declarados em cada eleição, com link. O site não calcula nem exibe variação de patrimônio entre eleições: o valor é autodeclarado, não é atualizado a preço de mercado, e uma conta de diferença sugere algo que o dado não sustenta. Fonte: TSE. Sem nota; é informação de contexto. Não mede: origem lícita ou ilícita.
 
-## 3. Índice de atividade parlamentar (única composição)
+## 3. Índice de atividade parlamentar (fora da primeira versão)
+Situação (01, D12): o índice não é calculado nem exibido na primeira versão. Volta à discussão na Fase 5, com pelo menos 12 meses de dados (pendência P3).
+Por que saiu:
+- Percentil é a posição de cada um na fila dos 21 vereadores, e fila sempre tem último lugar. Se todos tiverem entre 95% e 100% de presença, quem tem 95% apareceria "abaixo da faixa típica", o que é falso como descrição.
+- Os pesos são opinião sobre o que importa, mesmo publicados.
+- Um número único por vereador vira ranking no primeiro print que circular, o que o princípio 3 quer evitar.
+Condições para voltar: usar valores reais em vez de percentil; só mostrar faixa quando a diferença para a mediana for grande em termos absolutos (limiar a definir com dados); testar o resultado com os dados de um ano antes de publicar; aprovação do Henrique.
+A proposta original fica registrada abaixo, só como referência.
+
 Pergunta: quanto ele participa das atividades registradas da Câmara, comparado aos colegas?
 Proposta de pesos, a validar pelo Henrique (P3) antes de publicar:
 - Presença em plenário (I1): 30%
@@ -63,7 +72,7 @@ Substituem o antigo "grau de sintomas de práticas ilícitas" (decisão D3 no 01
 
 Regras para todos os alertas:
 - Cada alerta tem regra escrita, limiar, documentos de origem com link e data.
-- Texto no modelo: "[fato com números]. Isso não indica irregularidade por si só. Veja os documentos: [links]. [Espaço para manifestação do vereador, se houver.]"
+- Texto no modelo: "[fato com números]. Este dado, sozinho, não permite concluir nada sobre a conduta do vereador. Veja os documentos: [links]. [Espaço para manifestação do vereador, se houver.]" (A frase anterior usava "irregularidade", que esbarra na lista de palavras proibidas abaixo.)
 - Palavras proibidas em qualquer texto do site sobre um vereador: suspeito, suspeita, irregular, ilícito, ilegal, desvio, corrupção, fraude, escândalo, farra, abusivo, exagerado, exacerbado, estranho, sintoma. Usar: "acima da mediana", "concentrado em", "coincide com", "ponto de atenção".
 - Cor neutra (marinho ou cinza), sem vermelho; vermelho comunica culpa.
 - Alertas marcados "revisão humana" só vão ao ar depois que o Henrique conferir os documentos.
@@ -80,7 +89,8 @@ Regras iniciais (limiares são propostas; calibrar com 12 meses de dados):
 | A7 | Emenda destinada e não executada | Mais de 12 meses sem empenho | Não |
 Fora de escopo: qualquer regra que dependa de adivinhar intenção, ou de notícias não confirmadas por documento.
 
-## 5. Coerência entre pautas declaradas e atuação (experimental)
+## 5. Coerência entre pautas declaradas e atuação (ideia para depois, fora do roteiro)
+Situação (01, D13): nada desta seção é construído nem exibido. O texto abaixo fica como ponto de partida, caso o Henrique decida retomar.
 1. Pautas declaradas: lista de temas que o vereador disse defender, cada um com evidência (link, data, onde disse: campanha, entrevista, rede social, discurso). Curadoria humana; a IA só sugere.
 2. Atuação: proposições, falas e votos nominais classificados nos mesmos temas (taxonomia do 07).
 3. Exibição: duas colunas, "Disse que defenderia" e "O que fez no tema", com contagens e exemplos com link. Percentual descritivo: quanto da atuação dele cai nos temas que declarou.

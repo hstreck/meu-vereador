@@ -38,12 +38,23 @@ Use como checklist do que o site precisa cobrir até a versão completa.
 - D10 (23/10/2026) Imprensa: A Hora do Sul é a primeira candidata a fonte de notícias; outros portais locais serão levantados na Fase 5.
 - D11 (23/10/2026) O trabalho roda num projeto da nova versão de Projetos do Claude Code, chamado Meu Vereador: um coordenador recebe os pedidos do Henrique e abre threads na nuvem que trabalham no repositório e entregam pull requests. Isso substitui o arranjo de D1, em que um chat explicava e o Henrique colava prompts no Claude Code. "Meu Vereador" é o nome de trabalho; o nome público final continua em P1.
 
+- D12 (17/11/2026) O índice de atividade parlamentar fica fora da primeira versão do site. Motivo: por usar percentil (posição na fila dos 21 vereadores), ele sempre coloca alguém "abaixo da faixa típica", mesmo quando todos têm números parecidos, e um número único por vereador vira ranking. Os indicadores separados continuam, com valor real e mediana. O índice volta à discussão na Fase 5, com dados reais. Regras no 03, seção 3.
+- D13 (17/11/2026) A coerência entre pautas declaradas e atuação (I10) sai do roteiro e vira ideia para depois (seção 5). Motivo: depende de curadoria manual contínua de 21 vereadores e a palavra "contradição" é a de maior risco do site. O indicador de temas de atuação (I5) cobre a maior parte da necessidade.
+- D14 (17/11/2026) Atualização diária: a coleta, os testes e a publicação rodam no GitHub Actions (o robô gratuito do GitHub para repositórios públicos, que executa scripts em horário marcado). A tarefa agendada do Claude fica só com o enriquecimento por IA. Se ela falhar, o site atualiza do mesmo jeito. Condição: um teste na Fase 2 confirmar que a API da Câmara responde aos servidores do GitHub; se não responder, vale o arranjo anterior. Isto ajusta a D2. Detalhes no 05.
+- D15 (17/11/2026) Recorte inicial: a legislatura atual (2025 a 2028). O histórico anterior, que depende do SAPL antigo, entra depois. Resolve a P5.
+- D16 (17/11/2026) Dados pessoais: a API da Câmara devolve CPF, e-mail e telefone dos vereadores. A coleta só pede campos de uma lista permitida e um teste automático recusa qualquer arquivo de dados com formato de CPF ou telefone. Regras no 02, seção 2.1, e no 06, seção 3.
+- D17 (17/11/2026) Pedidos de providências (cerca de 20 mil por ano) não passam por resumo de IA nem ganham página própria: o tema sai de regras escritas e eles aparecem em listas por vereador e por mês. Projetos, pedidos de informações, moções e requerimentos seguem com resumo por IA e página própria. Regras no 07, seção 1.1, e no 05.
+- D18 (17/11/2026) O e-mail exclusivo do projeto e a verificação em duas etapas da conta do GitHub passam da Fase 6 para a Fase 0. O e-mail identifica o robô, assina os pedidos via SIC e recebe pedidos de correção.
+
+Origem de D12 a D18: análise crítica de 10/11/2026 (documento "Meu Vereador: análise crítica e melhorias"), que o Henrique mandou implementar em 17/11/2026. D12, D13, D14 e D15 mudam escopo e podem ser revertidas por ele a qualquer momento.
+
 ## 4. Decisões pendentes (o guia pergunta na fase indicada)
 - P1 Nome do site e domínio (Fase 6).
 - P2 Resolvida em D8.
-- P3 Pesos do índice de atividade (Fase 5; proposta no 03).
+- P3 Se o índice de atividade volta e com que regra e pesos (Fase 5; ver D12 e o 03, seção 3).
 - P4 Lista final de veículos de imprensa local (Fase 5; ponto de partida em D10).
-- P5 Recorte histórico: desde qual legislatura o site mostra a trajetória (Fase 1, depende do que as fontes oferecem).
+- P5 Resolvida em D15.
+- P6 Avisar a Câmara, em particular, de que a API pública expõe o CPF dos vereadores (recomendado; no primeiro contato da Fase 1, pela ouvidoria ou por e-mail, sem publicar nada sobre isso).
 
 ## 5. Ideias para o portal (registradas, não priorizadas)
 - Seguir um vereador: aviso por e-mail ou RSS quando ele propõe, vota ou gasta algo novo.
@@ -56,3 +67,7 @@ Use como checklist do que o site precisa cobrir até a versão completa.
 - Download dos dados tratados em CSV, para jornalistas e pesquisadores.
 - Registro público de correções e espaço para o vereador enviar contexto sobre um dado.
 - Versão em leitura fácil para cada página de vereador.
+- Entrada por bairro: "o que pediram para o meu bairro". A API tem lista de bairros e filtro por bairro; conferir na Fase 1 se há dado suficiente (na amostra de 10/11/2026 nenhum item tinha coordenada, então talvez dê lista por bairro e não mapa de pontos).
+- Tempo de fala por vereador, se a API preencher a lista de oradores (a confirmar na Fase 1).
+- Coerência entre pautas declaradas e atuação (antigo I10; ver D13 e o 03, seção 5).
+- Aviso de novidades por RSS por vereador (barato num site estático); aviso por e-mail só depois, porque exige guardar dados de leitores.
