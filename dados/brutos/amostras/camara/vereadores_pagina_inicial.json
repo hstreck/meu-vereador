@@ -1,0 +1,112 @@
+{
+ "fonte_url": "https://www.pelotas.rs.leg.br/",
+ "coletado_em": "2026-11-17T18:57:06Z",
+ "observacao": "Lido do HTML da página inicial da Câmara. O nome civil vem da API (Pessoa.nome).",
+ "dados": [
+  {
+   "pessoa_id": 2315,
+   "partido": "PROGRESSISTAS",
+   "cargo_e_nome_parlamentar": "Presidente MICHEL PROMOVE"
+  },
+  {
+   "pessoa_id": 3228,
+   "partido": "PL",
+   "cargo_e_nome_parlamentar": "Vice-Presidente MARCELO BAGÉ"
+  },
+  {
+   "pessoa_id": 2343,
+   "partido": "PSDB",
+   "cargo_e_nome_parlamentar": "Segundo(a) Vice-Presidente TAUÃ NEY"
+  },
+  {
+   "pessoa_id": 297,
+   "partido": "CIDADANIA",
+   "cargo_e_nome_parlamentar": "Primeiro(a) Secretário(a) PAULO COITINHO"
+  },
+  {
+   "pessoa_id": 3229,
+   "partido": "PROGRESSISTAS",
+   "cargo_e_nome_parlamentar": "Segundo(a) Secretário(a) ARTHUR HALAL"
+  },
+  {
+   "pessoa_id": 2312,
+   "partido": "PSD",
+   "cargo_e_nome_parlamentar": "Parlamentar CARLOS JUNIOR"
+  },
+  {
+   "pessoa_id": 2327,
+   "partido": "PSD",
+   "cargo_e_nome_parlamentar": "Parlamentar ANTONIO PEIXOTO"
+  },
+  {
+   "pessoa_id": 2342,
+   "partido": "PODEMOS",
+   "cargo_e_nome_parlamentar": "Parlamentar CAUÊ"
+  },
+  {
+   "pessoa_id": 2302,
+   "partido": "PSB",
+   "cargo_e_nome_parlamentar": "Parlamentar CESAR BRIZOLARA"
+  },
+  {
+   "pessoa_id": 1213,
+   "partido": "UNIÃO",
+   "cargo_e_nome_parlamentar": "Parlamentar CRISTIANO SILVA"
+  },
+  {
+   "pessoa_id": 3227,
+   "partido": "PSD",
+   "cargo_e_nome_parlamentar": "Parlamentar DANIEL FONSECA"
+  },
+  {
+   "pessoa_id": 1461,
+   "partido": "PSD",
+   "cargo_e_nome_parlamentar": "Parlamentar EDER BLANK"
+  },
+  {
+   "pessoa_id": 1509,
+   "partido": "PSOL",
+   "cargo_e_nome_parlamentar": "Parlamentar FERNANDA MIRANDA"
+  },
+  {
+   "pessoa_id": 141,
+   "partido": "PT",
+   "cargo_e_nome_parlamentar": "Parlamentar IVAN DUARTE"
+  },
+  {
+   "pessoa_id": 3230,
+   "partido": "PL",
+   "cargo_e_nome_parlamentar": "Parlamentar JUNIOR FOX"
+  },
+  {
+   "pessoa_id": 549,
+   "partido": "PSOL",
+   "cargo_e_nome_parlamentar": "Parlamentar JURANDIR SILVA"
+  },
+  {
+   "pessoa_id": 2308,
+   "partido": "PSDB",
+   "cargo_e_nome_parlamentar": "Parlamentar MARISA SCHWARZER"
+  },
+  {
+   "pessoa_id": 176,
+   "partido": "PROGRESSISTAS",
+   "cargo_e_nome_parlamentar": "Parlamentar RAFAEL AMARAL"
+  },
+  {
+   "pessoa_id": 567,
+   "partido": "UNIÃO",
+   "cargo_e_nome_parlamentar": "Parlamentar RAFAEL DUTRA (BARRIGA)"
+  },
+  {
+   "pessoa_id": 174,
+   "partido": "UNIÃO",
+   "cargo_e_nome_parlamentar": "Parlamentar MARCOLA (MARCOS FERREIRA)"
+  },
+  {
+   "pessoa_id": 2317,
+   "partido": "PT",
+   "cargo_e_nome_parlamentar": "Parlamentar MIRIAM MARRONI"
+  }
+ ]
+}

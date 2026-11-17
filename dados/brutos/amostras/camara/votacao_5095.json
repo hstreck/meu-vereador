@@ -1,0 +1,125 @@
+{
+ "fonte_url": "https://cmpelotas.cittatec.com.br/api/open-data-leg/public/votacoes-parlamentares/5095/votos",
+ "coletado_em": "2026-11-17T18:56:59Z",
+ "observacao": "Pedido de Informações nº 1014/2026, sessão de 05/11/2026. AUSENTE no voto não é o mesmo que falta na sessão.",
+ "dados": {
+  "votacao": {
+   "id": 5095,
+   "titulo": "PEDIDO DE INFORMAÇÕES Nº 1014/2026",
+   "inicio": "2026-11-05T12:00:20.997173",
+   "fim": "2026-11-05T12:01:16.52425",
+   "favoraveis": 12,
+   "contrarios": 0,
+   "abstidos": 0,
+   "ausentes": 7,
+   "impedidos": 0,
+   "secreta": false,
+   "simbolica": false,
+   "status": "CONCLUIDO"
+  },
+  "resultado": "APROVADO",
+  "sessao_id": 546351,
+  "votos": [
+   {
+    "pessoa_id": 1461,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 176,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 2302,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 2327,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 2315,
+    "voto": "SEM_VOTO",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 3228,
+    "voto": "AUSENTE",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 2343,
+    "voto": "AUSENTE",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 297,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 3229,
+    "voto": "AUSENTE",
+    "esteve_presente": false
+   },
+   {
+    "pessoa_id": 3227,
+    "voto": "AUSENTE",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 141,
+    "voto": "AUSENTE",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 3230,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 549,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 2308,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 1213,
+    "voto": "AUSENTE",
+    "esteve_presente": false
+   },
+   {
+    "pessoa_id": 567,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 1509,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 174,
+    "voto": "AUSENTE",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 2317,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   },
+   {
+    "pessoa_id": 1603,
+    "voto": "FAVORAVEL",
+    "esteve_presente": true
+   }
+  ]
+ }
+}

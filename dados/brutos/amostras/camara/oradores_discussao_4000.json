@@ -1,0 +1,47 @@
+{
+ "fonte_url": "https://cmpelotas.cittatec.com.br/api/open-data-leg/public/discussoes/4000/oradores",
+ "coletado_em": "2026-11-17T18:57:02Z",
+ "observacao": "Discussão de 17/06/2025. O campo assunto veio vazio em todas as amostras.",
+ "dados": [
+  {
+   "discussao_id": 4000,
+   "pessoa_id": 1461,
+   "ordem": 1,
+   "inicio": "2025-06-17T09:33:36.514668",
+   "fim": "2025-06-17T09:44:50.519033",
+   "segundos_concedidos": 600,
+   "segundos_discutidos": 675,
+   "assunto": null
+  },
+  {
+   "discussao_id": 4000,
+   "pessoa_id": 1213,
+   "ordem": 2,
+   "inicio": "2025-06-17T09:45:09.800287",
+   "fim": "2025-06-17T09:56:01.831261",
+   "segundos_concedidos": 600,
+   "segundos_discutidos": 654,
+   "assunto": null
+  },
+  {
+   "discussao_id": 4000,
+   "pessoa_id": 1371,
+   "ordem": 3,
+   "inicio": "2025-06-17T09:56:18.938471",
+   "fim": "2025-06-17T10:03:40.059375",
+   "segundos_concedidos": 600,
+   "segundos_discutidos": 442,
+   "assunto": null
+  },
+  {
+   "discussao_id": 4000,
+   "pessoa_id": 297,
+   "ordem": 4,
+   "inicio": "2025-06-17T10:03:58.60689",
+   "fim": "2025-06-17T10:14:15.571395",
+   "segundos_concedidos": 600,
+   "segundos_discutidos": 617,
+   "assunto": null
+  }
+ ]
+}
