@@ -22,8 +22,8 @@ Do Henrique:
 - Depois da aprovação, remover os documentos da Biblioteca, para não haver duas versões.
 
 Do Henrique, da Fase 1:
-- Passar o número de protocolo e o prazo do pedido à prefeitura, para registrar abaixo.
-- Liberar na rede do ambiente, para a Fase 2: dados.tce.rs.gov.br, transparencia.pelotas.rs.gov.br e storage01.pelotas.com.br (e, se quiser refazer o teste do Querido Diário, api.queridodiario.ok.org.br). A lista completa está no docs/02, seção 7.
+- Decidir se envia o pedido à prefeitura (rascunho 2, docs/02, seção 6.1).
+- Rede do ambiente: dados.tce.rs.gov.br, transparencia.pelotas.rs.gov.br e storage01.pelotas.com.br liberados em 17/11/2026 (conferido; o storage01 responde erro 500 do lado da prefeitura). Opcional: api.queridodiario.ok.org.br, para refazer o teste do Querido Diário.
 
 Próxima fase (Fase 2: coleta e dados tratados), em thread nova, quando o Henrique pedir. Pontos que a Fase 2 deve resolver primeiro (docs/02, seções 2.2 e 8):
 - Ligar cada votação à sessão e à proposição (pelo título) e testar; ligar oradores à sessão por data e hora.
@@ -35,5 +35,6 @@ Próxima fase (Fase 2: coleta e dados tratados), em thread nova, quando o Henriq
 Ver docs/01.
 
 ## Pedidos via SIC
-- 2026-11-17: pedido à prefeitura (emendas impositivas por vereador, rascunho 2 do docs/02, seção 6.1) enviado pelo Henrique. Protocolo e prazo: a registrar aqui.
-- Pedido à Câmara (rascunho 1): não enviado, por decisão do Henrique em 17/11/2026. A busca adicional (docs/02, seção 2.3) não achou outra fonte para gastos por gabinete.
+- Nenhum pedido enviado até 17/11/2026.
+- Pedido à Câmara (rascunho 1): descartado pelo Henrique em 17/11/2026. A busca adicional (docs/02, seção 2.3) não achou outra fonte para gastos por gabinete.
+- Pedido à prefeitura (rascunho 2, emendas impositivas por vereador): aguardando a decisão do Henrique de enviar ou não.
