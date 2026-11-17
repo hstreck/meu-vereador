@@ -1,0 +1,59 @@
+{
+ "fonte_url": "https://dados.tce.rs.gov.br/dados/municipal/empenhos/2025/54401.csv.zip",
+ "coletado_em": "2026-11-17T19:05:00Z",
+ "observacao": "4 linhas de 8.584 (arquivo de 2025, órgão 54401 = Câmara de Pelotas). Sem nome nem CPF/CNPJ do credor e sem histórico. credor_e_vereador_pelo_nome foi calculado na hora comparando o nome do credor com o nome civil dos 21 vereadores (a conferir: pode ser homônimo).",
+ "dados": [
+  {
+   "ano_recebimento": "2025",
+   "mes_recebimento": "12",
+   "tipo_operacao": "P",
+   "ano_empenho": "2025",
+   "dt_operacao": "2025-01-31",
+   "nr_empenho": "2025000000040",
+   "nome_unidade_orcamentaria": "Câmara Municipal de Vereadores",
+   "ds_rubrica": "DIARIAS NO PAIS",
+   "tp_pessoa": "PF",
+   "credor_e_vereador_pelo_nome": false,
+   "vl_pagamento": "275.00"
+  },
+  {
+   "ano_recebimento": "2025",
+   "mes_recebimento": "12",
+   "tipo_operacao": "P",
+   "ano_empenho": "2025",
+   "dt_operacao": "2025-02-06",
+   "nr_empenho": "2025000000094",
+   "nome_unidade_orcamentaria": "Câmara Municipal de Vereadores",
+   "ds_rubrica": "COMBUSTIVEIS E LUBRIFICANTES AUTOMOTIVOS",
+   "tp_pessoa": "PF",
+   "credor_e_vereador_pelo_nome": false,
+   "vl_pagamento": "1111.31"
+  },
+  {
+   "ano_recebimento": "2025",
+   "mes_recebimento": "12",
+   "tipo_operacao": "P",
+   "ano_empenho": "2025",
+   "dt_operacao": "2025-02-06",
+   "nr_empenho": "2025000000118",
+   "nome_unidade_orcamentaria": "Câmara Municipal de Vereadores",
+   "ds_rubrica": "SERVICOS DE COPIAS E REPRODUCAO DE DOCUMENTOS",
+   "tp_pessoa": "PF",
+   "credor_e_vereador_pelo_nome": true,
+   "vl_pagamento": "10800.00"
+  },
+  {
+   "ano_recebimento": "2025",
+   "mes_recebimento": "12",
+   "tipo_operacao": "P",
+   "ano_empenho": "2024",
+   "dt_operacao": "2025-01-13",
+   "nr_empenho": "2024000002505",
+   "nome_unidade_orcamentaria": "Câmara Municipal de Vereadores",
+   "ds_rubrica": "PASSAGENS PARA O PAIS",
+   "tp_pessoa": "PJ",
+   "credor_e_vereador_pelo_nome": false,
+   "vl_pagamento": "2748.88"
+  }
+ ]
+}

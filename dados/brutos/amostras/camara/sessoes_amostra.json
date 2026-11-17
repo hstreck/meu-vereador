@@ -1,0 +1,87 @@
+{
+ "fonte_url": "https://cmpelotas.cittatec.com.br/api/open-data-leg/public/graphql (consulta sessoes)",
+ "coletado_em": "2026-11-17T18:56:53Z",
+ "observacao": "",
+ "dados": [
+  {
+   "id": 547597,
+   "dataSessao": "2026-11-17T10:00",
+   "inicio": null,
+   "fim": null,
+   "tipoSessao": {
+    "id": 278,
+    "classificacao": {
+     "descricao": "REUNIÃO COMISSÃO DE CONSTITUIÇÃO,JUSTIÇA E REDAÇÃO - CCJ"
+    },
+    "contabilizaFrequencia": true
+   },
+   "status": {
+    "name": "AGUARDANDO"
+   }
+  },
+  {
+   "id": 547601,
+   "dataSessao": "2026-11-17T10:00",
+   "inicio": null,
+   "fim": null,
+   "tipoSessao": {
+    "id": 277,
+    "classificacao": {
+     "descricao": "REUNIÃO COMISSÃO DE ORÇAMENTO E FINANÇAS - COF"
+    },
+    "contabilizaFrequencia": true
+   },
+   "status": {
+    "name": "AGUARDANDO"
+   }
+  },
+  {
+   "id": 547242,
+   "dataSessao": "2026-11-17T08:30",
+   "inicio": "2026-11-17T09:45:18.539420",
+   "fim": null,
+   "tipoSessao": {
+    "id": 63,
+    "classificacao": {
+     "descricao": "SESSÃO ORDINÁRIA"
+    },
+    "contabilizaFrequencia": true
+   },
+   "status": {
+    "name": "ANDAMENTO"
+   }
+  },
+  {
+   "id": 547493,
+   "dataSessao": "2026-11-14T10:00",
+   "inicio": "2026-11-14T10:36:59.518679",
+   "fim": "2026-11-14T10:48:07",
+   "tipoSessao": {
+    "id": 64,
+    "classificacao": {
+     "descricao": "SESSÃO EXTRAORDINÁRIA"
+    },
+    "contabilizaFrequencia": true
+   },
+   "status": {
+    "name": "CONCLUIDO"
+   }
+  },
+  {
+   "id": 546915,
+   "dataSessao": "2026-11-12T08:30",
+   "inicio": "2026-11-12T08:52:52.871089",
+   "fim": "2026-11-12T16:16:27",
+   "tipoSessao": {
+    "id": 63,
+    "classificacao": {
+     "descricao": "SESSÃO ORDINÁRIA"
+    },
+    "contabilizaFrequencia": true
+   },
+   "status": {
+    "name": "CONCLUIDO"
+   }
+  }
+ ]
+}

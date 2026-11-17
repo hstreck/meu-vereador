@@ -1,0 +1,367 @@
+{
+ "fonte_url": "https://cmpelotas.cittatec.com.br/api/open-data-leg/public/graphql (consulta proposicoes)",
+ "coletado_em": "2026-11-17T18:56:51Z",
+ "observacao": "2 itens de cada tipo: PL ordinário 2025, pedido de informações 2026, pedido de providências 2026, emenda impositiva 2025, moção 2026. Descrições cortadas em 400 caracteres.",
+ "dados": [
+  {
+   "id": 517040,
+   "resultadoVotacao": {
+    "name": "AGUARDANDO"
+   },
+   "processo": {
+    "id": 517040,
+    "titulo": "PROJETO DE LEI ORDINÁRIA Nº 158/2025",
+    "descricao": "Dispõe sobre a possibilidade de conversão do pagamento de multas de trânsito de natureza leve e média, de competência do Município de Pelotas, em doação voluntária de sangue ou em comprovação de cadastro ativo como doador de medula óssea, autoriza o Poder Executivo a implementar a medida, e dá outras providências.",
+    "nroDocumento": 158,
+    "anoDocumento": 2025,
+    "dataProtocolo": "2025-12-27T12:01:08.590443",
+    "dataPublicacao": "2025-12-27T12:01:09.243713",
+    "classificacao": {
+     "id": 25,
+     "descricao": "PROJETO DE LEI ORDINÁRIA"
+    },
+    "status": {
+     "name": "CONCLUIDO",
+     "description": "Concluído"
+    },
+    "statusTramitacao": {
+     "name": "ENCERRADA",
+     "description": "Encerrada"
+    },
+    "autores": [
+     {
+      "id": 157,
+      "nome": "VEREADOR CAUÊ FUHRO SOUTO MARTINS",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 516593,
+   "resultadoVotacao": {
+    "name": "APROVADO"
+   },
+   "processo": {
+    "id": 516593,
+    "titulo": "PROJETO DE LEI ORDINÁRIA Nº 157/2025",
+    "descricao": "projeto de lei",
+    "nroDocumento": 157,
+    "anoDocumento": 2025,
+    "dataProtocolo": "2025-12-17T13:33:34.257002",
+    "dataPublicacao": "2025-12-17T13:33:35.038494",
+    "classificacao": {
+     "id": 25,
+     "descricao": "PROJETO DE LEI ORDINÁRIA"
+    },
+    "status": {
+     "name": "CONCLUIDO",
+     "description": "Concluído"
+    },
+    "statusTramitacao": {
+     "name": "ENCERRADA",
+     "description": "Encerrada"
+    },
+    "autores": [
+     {
+      "id": 127,
+      "nome": "VEREADOR CARLOS RENATO BENTO OLIVEIRA JÚNIOR",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 547926,
+   "resultadoVotacao": {
+    "name": "AGUARDANDO"
+   },
+   "processo": {
+    "id": 547926,
+    "titulo": "PEDIDO DE INFORMAÇÕES Nº 1050/2026",
+    "descricao": "Solicito informações à Secretaria Municipal de Gestão da Cidade e Mobilidade Urbana (SGCMU) concernente à nomeação da Rua Cinco, que se encontra entre a AV. José Maria da Fontoura e a Rua Jacob Elias Baini, no Colina Verde, Laranjal. A referida rua já foi nomeada? Se sim, qual nome?",
+    "nroDocumento": 1050,
+    "anoDocumento": 2026,
+    "dataProtocolo": "2026-11-17T10:14:43.651481",
+    "dataPublicacao": "2026-11-17T10:14:44.250931",
+    "classificacao": {
+     "id": 34,
+     "descricao": "PEDIDO DE INFORMAÇÕES"
+    },
+    "status": {
+     "name": "EM_ANALISE",
+     "description": "Em Análise"
+    },
+    "statusTramitacao": {
+     "name": "EM_ANDAMENTO",
+     "description": "Em Andamento"
+    },
+    "autores": [
+     {
+      "id": 129,
+      "nome": "VEREADOR CRISTIANO WACHHOLZ DA SILVA",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 547644,
+   "resultadoVotacao": {
+    "name": "AGUARDANDO"
+   },
+   "processo": {
+    "id": 547644,
+    "titulo": "PEDIDO DE INFORMAÇÕES Nº 1049/2026",
+    "descricao": "Solicitação de informações e providências quanto à fila de espera para exame. A paciente E. B. C. aguarda a realização de exame de tomografia computadorizada da coluna lombossacra, com ou sem contraste, há mais de 275 dias. O vereador abaixo-assinado requer, na forma regimental, que, após lido e aprovado em plenário, seja enviado ofício ao Executivo Municipal seguido da Secretaria Municipal de Saú",
+    "nroDocumento": 1049,
+    "anoDocumento": 2026,
+    "dataProtocolo": "2026-11-17T07:58:20.561614",
+    "dataPublicacao": "2026-11-17T07:58:21.429910",
+    "classificacao": {
+     "id": 34,
+     "descricao": "PEDIDO DE INFORMAÇÕES"
+    },
+    "status": {
+     "name": "EM_ANALISE",
+     "description": "Em Análise"
+    },
+    "statusTramitacao": {
+     "name": "EM_ANDAMENTO",
+     "description": "Em Andamento"
+    },
+    "autores": [
+     {
+      "id": 480,
+      "nome": "VEREADOR EDER BLANK",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 548069,
+   "resultadoVotacao": {
+    "name": "SEM_VOTACAO"
+   },
+   "processo": {
+    "id": 548069,
+    "titulo": "PEDIDO DE PROVIDÊNCIAS Nº 19116/2026",
+    "descricao": "O Vereador Rafael Amaral, do Progressistas (PP), no uso de suas atribuições legais e regimentais, vem propor que seja encaminhado, no Expediente, ao órgão competente, o presente Pedido de Providências, solicitando a realização de serviços de revitalização em frente à Escola Piratinino de Almeida e em suas imediações, localizada na Rua Domingos José de Almeida, nº 4057, Bairro Areal.",
+    "nroDocumento": 19116,
+    "anoDocumento": 2026,
+    "dataProtocolo": "2026-11-17T13:39:47.032513",
+    "dataPublicacao": "2026-11-17T13:39:47.548553",
+    "classificacao": {
+     "id": 33,
+     "descricao": "PEDIDO DE PROVIDÊNCIAS"
+    },
+    "status": {
+     "name": "EM_ANALISE",
+     "description": "Em Análise"
+    },
+    "statusTramitacao": {
+     "name": "EM_ANDAMENTO",
+     "description": "Em Andamento"
+    },
+    "autores": [
+     {
+      "id": 155,
+      "nome": "VEREADOR RAFAEL ACOSTA AMARAL",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 548068,
+   "resultadoVotacao": {
+    "name": "SEM_VOTACAO"
+   },
+   "processo": {
+    "id": 548068,
+    "titulo": "PEDIDO DE PROVIDÊNCIAS Nº 19115/2026",
+    "descricao": "Requer à Secretaria Municipal de Serviços Urbanos e Infraestrutura (SSUI) a realização de serviços de roçado, capina, limpeza das laterais e recolhimento de resíduos sólidos descartados irregularmente em toda a extensão da Avenida Doutor Augusto Duprat, no bairro Três Vendas, garantindo segurança viária.",
+    "nroDocumento": 19115,
+    "anoDocumento": 2026,
+    "dataProtocolo": "2026-11-17T13:32:53.140732",
+    "dataPublicacao": "2026-11-17T13:32:53.472537",
+    "classificacao": {
+     "id": 33,
+     "descricao": "PEDIDO DE PROVIDÊNCIAS"
+    },
+    "status": {
+     "name": "EM_ANALISE",
+     "description": "Em Análise"
+    },
+    "statusTramitacao": {
+     "name": "EM_ANDAMENTO",
+     "description": "Em Andamento"
+    },
+    "autores": [
+     {
+      "id": 157,
+      "nome": "VEREADOR CAUÊ FUHRO SOUTO MARTINS",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 515586,
+   "resultadoVotacao": {
+    "name": "APROVADO"
+   },
+   "processo": {
+    "id": 515586,
+    "titulo": "EMENDA IMPOSITIVA Nº 456/2025 -> MENSAGEM Nº 40/2025",
+    "descricao": "EMENTA: EMENDA IMPOSITIVA À MENSAGEM 040/2025, A QUAL DISPÕE SOBRE A LEI ORÇAMENTÁRIA DA ADMINISTRAÇÃO DIRETA E INDIRETA PARA O EXERCÍCIO DE 2026",
+    "nroDocumento": 456,
+    "anoDocumento": 2025,
+    "dataProtocolo": "2025-12-04T17:19:49.574760",
+    "dataPublicacao": "2025-12-04T17:19:49.976844",
+    "classificacao": {
+     "id": 270,
+     "descricao": "EMENDA IMPOSITIVA"
+    },
+    "status": {
+     "name": "CONCLUIDO",
+     "description": "Concluído"
+    },
+    "statusTramitacao": {
+     "name": "ENCERRADA",
+     "description": "Encerrada"
+    },
+    "autores": [
+     {
+      "id": 522,
+      "nome": "VEREADOR MARCELO FONSECA",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 515581,
+   "resultadoVotacao": {
+    "name": "APROVADO"
+   },
+   "processo": {
+    "id": 515581,
+    "titulo": "EMENDA IMPOSITIVA Nº 455/2025 -> MENSAGEM Nº 40/2025",
+    "descricao": "EMENDA IMPOSITIVA À MENSAGEM 40/2025, A QUAL DISPÕE SOBRE A LEI ORÇAMENTÁRIA DA ADMINISTRAÇÃO DIRETA E INDIRETA PARA O EXERCÍCIO DE 2026; disponibilizando R$ 25.000,00 para apoio às atividades do Projeto de Extensão Design Factor, a serem executadas via FAIFSUL – Fundação de Apoio ao Instituto Federal Sul-rio-grandense (CNPJ 02.321.624/0001-36).",
+    "nroDocumento": 455,
+    "anoDocumento": 2025,
+    "dataProtocolo": "2025-12-04T16:45:22.552613",
+    "dataPublicacao": "2025-12-04T16:45:23.032020",
+    "classificacao": {
+     "id": 270,
+     "descricao": "EMENDA IMPOSITIVA"
+    },
+    "status": {
+     "name": "CONCLUIDO",
+     "description": "Concluído"
+    },
+    "statusTramitacao": {
+     "name": "ENCERRADA",
+     "description": "Encerrada"
+    },
+    "autores": [
+     {
+      "id": 150,
+      "nome": "VEREADOR ANTONIO PEIXOTO",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 547869,
+   "resultadoVotacao": {
+    "name": "AGUARDANDO"
+   },
+   "processo": {
+    "id": 547869,
+    "titulo": "MOÇÃO Nº 138/2026",
+    "descricao": "O Vereador Paulo Coitinho, no uso de suas atribuições regimentais, requer que seja encaminhada MOÇÃO DE PESAR aos familiares, amigos pelo falecimento da Senhora NORMA GONÇALVES XAVIER, ocorrido em 16 de novembro de 2026.",
+    "nroDocumento": 138,
+    "anoDocumento": 2026,
+    "dataProtocolo": "2026-11-17T06:38:55.931053",
+    "dataPublicacao": "2026-11-17T06:38:56.535938",
+    "classificacao": {
+     "id": 31,
+     "descricao": "MOÇÃO"
+    },
+    "status": {
+     "name": "EM_ANALISE",
+     "description": "Em Análise"
+    },
+    "statusTramitacao": {
+     "name": "EM_ANDAMENTO",
+     "description": "Em Andamento"
+    },
+    "autores": [
+     {
+      "id": 136,
+      "nome": "VEREADOR PAULO CÉSAR COITINHO DOS SANTOS",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": 547868,
+   "resultadoVotacao": {
+    "name": "AGUARDANDO"
+   },
+   "processo": {
+    "id": 547868,
+    "titulo": "MOÇÃO Nº 137/2026",
+    "descricao": "O Vereador Cristiano Wachholz da Silva, no uso de suas atribuições regimentais, requer que seja encaminhada MOÇÃO DE PESAR pelo falecimento de SIRLEI SOUZA XAVIER, ocorrido no dia 16 de novembro de 2026, aos 80 anos de idade, no Município de Pelotas/RS.",
+    "nroDocumento": 137,
+    "anoDocumento": 2026,
+    "dataProtocolo": "2026-11-16T19:23:31.522314",
+    "dataPublicacao": "2026-11-16T19:23:31.993986",
+    "classificacao": {
+     "id": 31,
+     "descricao": "MOÇÃO"
+    },
+    "status": {
+     "name": "EM_ANALISE",
+     "description": "Em Análise"
+    },
+    "statusTramitacao": {
+     "name": "EM_ANDAMENTO",
+     "description": "Em Andamento"
+    },
+    "autores": [
+     {
+      "id": 129,
+      "nome": "VEREADOR CRISTIANO WACHHOLZ DA SILVA",
+      "participacao": {
+       "name": "AUTOR"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

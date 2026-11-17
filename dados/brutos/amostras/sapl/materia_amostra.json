@@ -1,0 +1,15 @@
+{
+ "fonte_url": "https://sapl.pelotas.rs.leg.br/api/materia/materialegislativa/?page_size=1&page=1",
+ "coletado_em": "2026-11-17T19:08:00Z",
+ "observacao": "1 matéria de 47.354 no total (JSON aberto, paginado). Datas das matérias da lista: de 2021-02-24 a 2005-05-24. Fonte do histórico anterior a 2025 (docs/01, D15); robots.txt pede 60 s entre pedidos.",
+ "dados": {
+  "id": 40433,
+  "__str__": "Emenda nº 1239 de 2021",
+  "numero": 1239,
+  "ano": 2021,
+  "data_apresentacao": "2021-02-24",
+  "tipo_apresentacao": "E",
+  "em_tramitacao": false,
+  "ementa": "Acrescente-se o parágrafo primeiro e segundo ao art. 6º da mensagem 005/2021 que autoriza o poder executivo contratar por tempo determinado para atuação das unidades vinculadas a secretaria municipal de educação e desporto, na forma de contrato administrativo para atender necessidade temporária de e"
+ }
+}

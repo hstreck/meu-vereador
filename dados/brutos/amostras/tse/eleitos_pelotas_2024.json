@@ -1,0 +1,217 @@
+{
+ "fonte_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2024.zip e https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2024.zip",
+ "coletado_em": "2026-11-17T19:05:00Z",
+ "observacao": "21 eleitos para vereador em Pelotas em 2024. Só campos permitidos (sem CPF, e-mail, nascimento, título de eleitor). bens_total_declarado é a soma do que o candidato declarou; 2 eleitos não têm bens no arquivo (isso é 'sem registro', não zero).",
+ "dados": [
+  {
+   "sq_candidato": "210002057417",
+   "nome_urna": "JUNIOR FOX",
+   "nome": "CARLOS ALBERTO MILGAREJO PEREIRA JUNIOR",
+   "partido": "PL",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 9,
+   "bens_total_declarado": 508665.0
+  },
+  {
+   "sq_candidato": "210002167822",
+   "nome_urna": "FERNANDA MIRANDA",
+   "nome": "FERNANDA PINTO MIRANDA",
+   "partido": "PSOL",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 1,
+   "bens_total_declarado": 26000.0
+  },
+  {
+   "sq_candidato": "210002069757",
+   "nome_urna": "CAUÊ",
+   "nome": "CAUÊ FUHRO SOUTO MARTINS",
+   "partido": "PV",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 1,
+   "bens_total_declarado": 1200000.0
+  },
+  {
+   "sq_candidato": "210001918899",
+   "nome_urna": "RAFAEL BARRIGA",
+   "nome": "RAFAEL PEREIRA DUTRA",
+   "partido": "UNIÃO",
+   "situacao": "ELEITO POR MÉDIA",
+   "ano_eleicao": "2024",
+   "bens_qtd": 0,
+   "bens_total_declarado": null
+  },
+  {
+   "sq_candidato": "210001990534",
+   "nome_urna": "TAUÃ NEY",
+   "nome": "TAUÃ VAZ NEY",
+   "partido": "PSDB",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 0,
+   "bens_total_declarado": null
+  },
+  {
+   "sq_candidato": "210002069759",
+   "nome_urna": "IVAN DUARTE",
+   "nome": "IVAN ADMAR DORNELLES DUARTE",
+   "partido": "PT",
+   "situacao": "ELEITO POR MÉDIA",
+   "ano_eleicao": "2024",
+   "bens_qtd": 1,
+   "bens_total_declarado": 350000.0
+  },
+  {
+   "sq_candidato": "210001919031",
+   "nome_urna": "CESINHA",
+   "nome": "CESAR BRIZOLARA",
+   "partido": "PSB",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 3,
+   "bens_total_declarado": 300000.0
+  },
+  {
+   "sq_candidato": "210001918912",
+   "nome_urna": "MARCOLA",
+   "nome": "MARCOS FERREIRA INSSARRIAGA",
+   "partido": "UNIÃO",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 2,
+   "bens_total_declarado": 428033.0
+  },
+  {
+   "sq_candidato": "210002018210",
+   "nome_urna": "CARLOS JUNIOR",
+   "nome": "CARLOS RENATO BENTO OLIVEIRA JUNIOR",
+   "partido": "PSD",
+   "situacao": "ELEITO POR MÉDIA",
+   "ano_eleicao": "2024",
+   "bens_qtd": 7,
+   "bens_total_declarado": 312407.0
+  },
+  {
+   "sq_candidato": "210001990548",
+   "nome_urna": "MARISA PROTETORA DE ANIMAIS",
+   "nome": "MARISA ELOÍDES SCHWARZER",
+   "partido": "PSDB",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 6,
+   "bens_total_declarado": 762754.42
+  },
+  {
+   "sq_candidato": "210002153319",
+   "nome_urna": "MICHEL PROMOVE",
+   "nome": "MICHEL FERREIRA ESCALANTE",
+   "partido": "PP",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 3,
+   "bens_total_declarado": 214800.0
+  },
+  {
+   "sq_candidato": "210002069748",
+   "nome_urna": "MIRIAM MARRONI",
+   "nome": "MIRIAM PAZ GARCEZ MARRONI",
+   "partido": "PT",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 1,
+   "bens_total_declarado": 95000.0
+  },
+  {
+   "sq_candidato": "210002018212",
+   "nome_urna": "REPÓRTER ANTÔNIO PEIXOTO",
+   "nome": "ANTÔNIO PEIXOTO OLIVEIRA",
+   "partido": "PSD",
+   "situacao": "ELEITO POR MÉDIA",
+   "ano_eleicao": "2024",
+   "bens_qtd": 4,
+   "bens_total_declarado": 278792.37
+  },
+  {
+   "sq_candidato": "210002018221",
+   "nome_urna": "DANIEL FONSECA",
+   "nome": "SEDENEI DANIEL MATTOS FONSECA",
+   "partido": "PSD",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 2,
+   "bens_total_declarado": 168000.0
+  },
+  {
+   "sq_candidato": "210002153312",
+   "nome_urna": "RAFAEL AMARAL",
+   "nome": "RAFAEL ACOSTA AMARAL",
+   "partido": "PP",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 3,
+   "bens_total_declarado": 317950.0
+  },
+  {
+   "sq_candidato": "210002057402",
+   "nome_urna": "MARCELO BAGÉ",
+   "nome": "MARCELO DANTAS RITTA",
+   "partido": "PL",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 1,
+   "bens_total_declarado": 400000.0
+  },
+  {
+   "sq_candidato": "210002018225",
+   "nome_urna": "ÉDER BLANK PATACA",
+   "nome": "ÉDER RICARDO BLANK",
+   "partido": "PSD",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 4,
+   "bens_total_declarado": 750000.0
+  },
+  {
+   "sq_candidato": "210002153323",
+   "nome_urna": "ARTHUR HALAL",
+   "nome": "ARTHUR GEORGES HALAL ABREU",
+   "partido": "PP",
+   "situacao": "ELEITO POR MÉDIA",
+   "ano_eleicao": "2024",
+   "bens_qtd": 2,
+   "bens_total_declarado": 330000.0
+  },
+  {
+   "sq_candidato": "210001990549",
+   "nome_urna": "PAULO COITINHO",
+   "nome": "PAULO CESAR COITINHO DOS SANTOS",
+   "partido": "CIDADANIA",
+   "situacao": "ELEITO POR MÉDIA",
+   "ano_eleicao": "2024",
+   "bens_qtd": 3,
+   "bens_total_declarado": 71644.39
+  },
+  {
+   "sq_candidato": "210002167830",
+   "nome_urna": "JURANDIR SILVA",
+   "nome": "JURANDIR BUCHWEITZ E SILVA",
+   "partido": "PSOL",
+   "situacao": "ELEITO POR MÉDIA",
+   "ano_eleicao": "2024",
+   "bens_qtd": 6,
+   "bens_total_declarado": 217305.01
+  },
+  {
+   "sq_candidato": "210001918901",
+   "nome_urna": "CRISTIANO SILVA",
+   "nome": "CRISTIANO WACHHOLZ DA SILVA",
+   "partido": "UNIÃO",
+   "situacao": "ELEITO POR QP",
+   "ano_eleicao": "2024",
+   "bens_qtd": 4,
+   "bens_total_declarado": 2927680.0
+  }
+ ]
+}

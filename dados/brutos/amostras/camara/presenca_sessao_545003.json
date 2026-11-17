@@ -1,0 +1,301 @@
+{
+ "fonte_url": "https://cmpelotas.cittatec.com.br/api/open-data-leg/public/graphql (consulta parlamentaresSessao, sessão 545003, 20/10/2026)",
+ "coletado_em": "2026-11-17T18:56:56Z",
+ "observacao": "",
+ "dados": [
+  {
+   "id": 22145,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 2315,
+    "nome": "MICHEL FERREIRA ESCALANTE"
+   },
+   "partido": {
+    "sigla": "PROGRESSISTAS"
+   },
+   "cargo": {
+    "name": "PRESIDENTE"
+   }
+  },
+  {
+   "id": 22146,
+   "estevePresente": false,
+   "pessoa": {
+    "id": 3228,
+    "nome": "MARCELO DANTAS RITTA"
+   },
+   "partido": {
+    "sigla": "PL"
+   },
+   "cargo": {
+    "name": "VICE_PRESIDENTE_1"
+   }
+  },
+  {
+   "id": 22147,
+   "estevePresente": false,
+   "pessoa": {
+    "id": 2343,
+    "nome": "TAUÃ NEY"
+   },
+   "partido": {
+    "sigla": "PSDB"
+   },
+   "cargo": {
+    "name": "VICE_PRESIDENTE_2"
+   }
+  },
+  {
+   "id": 22148,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 297,
+    "nome": "PAULO CESAR COITINHO DOS SANTOS"
+   },
+   "partido": {
+    "sigla": "CIDADANIA"
+   },
+   "cargo": {
+    "name": "SECRETARIO_1"
+   }
+  },
+  {
+   "id": 22149,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 3229,
+    "nome": "ARTHUR GEORGES HALAL ABREU"
+   },
+   "partido": {
+    "sigla": "PROGRESSISTAS"
+   },
+   "cargo": {
+    "name": "SECRETARIO_2"
+   }
+  },
+  {
+   "id": 22141,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 1461,
+    "nome": "EDER RICARDO BLANK"
+   },
+   "partido": {
+    "sigla": "PSD"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22142,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 176,
+    "nome": "RAFAEL ACOSTA AMARAL"
+   },
+   "partido": {
+    "sigla": "PROGRESSISTAS"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22143,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 2302,
+    "nome": "CESAR BRIZOLARA"
+   },
+   "partido": {
+    "sigla": "PSB"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22144,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 2327,
+    "nome": "ANTONIO PEIXOTO OLIVEIRA"
+   },
+   "partido": {
+    "sigla": "PSD"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22150,
+   "estevePresente": false,
+   "pessoa": {
+    "id": 3227,
+    "nome": "DANIEL FONSECA"
+   },
+   "partido": {
+    "sigla": "PSD"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22151,
+   "estevePresente": false,
+   "pessoa": {
+    "id": 141,
+    "nome": "IVAN ADMAR DORNELLES DUARTE"
+   },
+   "partido": {
+    "sigla": "PT"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22152,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 3230,
+    "nome": "CARLOS ALBERTO MILGAREJO PEREIRA JUNIOR"
+   },
+   "partido": {
+    "sigla": "PL"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22153,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 549,
+    "nome": "JURANDIR BUCHWEITZ E SILVA"
+   },
+   "partido": {
+    "sigla": "PSOL"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22154,
+   "estevePresente": false,
+   "pessoa": {
+    "id": 2308,
+    "nome": "MARISA ELOIDES SCHWARZER"
+   },
+   "partido": {
+    "sigla": "PSDB"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22155,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 1213,
+    "nome": "CRISTIANO WACHHOLZ DA SILVA"
+   },
+   "partido": {
+    "sigla": "UNIÃO"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22156,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 567,
+    "nome": "RAFAEL PEREIRA DUTRA"
+   },
+   "partido": {
+    "sigla": "UNIÃO"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22157,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 1509,
+    "nome": "FERNANDA PINTO MIRANDA"
+   },
+   "partido": {
+    "sigla": "PSOL"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22158,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 174,
+    "nome": "MARCOS FERREIRA INSSARRIAGA "
+   },
+   "partido": {
+    "sigla": "UNIÃO"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22159,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 2317,
+    "nome": "MIRIAM PAZ GARCEZ MARRONI"
+   },
+   "partido": {
+    "sigla": "PT"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22160,
+   "estevePresente": false,
+   "pessoa": {
+    "id": 2342,
+    "nome": "CAUE FUHRO SOUTO MARTINS"
+   },
+   "partido": {
+    "sigla": "PODEMOS"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  },
+  {
+   "id": 22161,
+   "estevePresente": true,
+   "pessoa": {
+    "id": 1603,
+    "nome": "FAGNER SILVEIRA FEIJO"
+   },
+   "partido": {
+    "sigla": "PSD"
+   },
+   "cargo": {
+    "name": "PARLAMENTAR"
+   }
+  }
+ ]
+}
