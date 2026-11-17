@@ -22,7 +22,7 @@ Do Henrique:
 - Depois da aprovação, remover os documentos da Biblioteca, para não haver duas versões.
 
 Do Henrique, da Fase 1:
-- Decidir se envia os dois rascunhos de pedido do docs/02, seção 6.1 (Câmara e prefeitura). Nenhum foi enviado.
+- Passar o número de protocolo e o prazo do pedido à prefeitura, para registrar abaixo.
 - Liberar na rede do ambiente, para a Fase 2: dados.tce.rs.gov.br, transparencia.pelotas.rs.gov.br e storage01.pelotas.com.br (e, se quiser refazer o teste do Querido Diário, api.queridodiario.ok.org.br). A lista completa está no docs/02, seção 7.
 
 Próxima fase (Fase 2: coleta e dados tratados), em thread nova, quando o Henrique pedir. Pontos que a Fase 2 deve resolver primeiro (docs/02, seções 2.2 e 8):
@@ -35,4 +35,5 @@ Próxima fase (Fase 2: coleta e dados tratados), em thread nova, quando o Henriq
 Ver docs/01.
 
 ## Pedidos via SIC
-Nenhum enviado ainda. Dois rascunhos prontos em docs/02, seção 6.1 (Câmara e prefeitura), para o Henrique decidir.
+- 2026-11-17: pedido à prefeitura (emendas impositivas por vereador, rascunho 2 do docs/02, seção 6.1) enviado pelo Henrique. Protocolo e prazo: a registrar aqui.
+- Pedido à Câmara (rascunho 1): não enviado, por decisão do Henrique em 17/11/2026. A busca adicional (docs/02, seção 2.3) não achou outra fonte para gastos por gabinete.

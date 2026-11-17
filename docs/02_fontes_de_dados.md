@@ -115,6 +115,14 @@ O último número do ano é uma boa estimativa da quantidade, mas pode haver fal
 - Fora do ar ou lento: a API respondeu sempre; uma consulta pesada de introspecção é recusada (BadFaithIntrospection), como já anotado.
 - Documentação e termos de uso: não achei. O pedido à Câmara está no rascunho 1 da seção 6.1.
 
+### 2.3 Busca adicional por outras fontes (17/11/2026, a pedido do Henrique)
+Objetivo: ver se os dados que faltam (gastos por gabinete, atas, comissões) estão em outro lugar, antes de pedir à Câmara.
+- Site da Câmara (www.pelotas.rs.leg.br): o mapa do site tem 1.156 endereços. Não há página de despesas, diárias, folha, verba de gabinete ou ressarcimentos por vereador. O que existe na área de transparência: compras e licitações, editais, concursos, publicações diversas (2 itens recentes), a relação nominal de estagiários (nomes de pessoas comuns, não coletar) e o link para o portal AVMB. A agenda tem audiências públicas por vereador, que podem virar um dado a mais (a avaliar). O Portal do Servidor (cittaweb) é bloqueado pela rede do ambiente.
+- Portal da Transparência da Câmara (AVMB): a busca na internet não achou nada sobre ele além do próprio link; o robots.txt continua proibindo robôs. O único caminho aberto é a exportação ou o pedido formal.
+- TCE-RS: não achei folha de pagamento de servidores municipais como dado aberto (só os empenhos, contratos, licitações e balancetes da seção 4.1). A folha de assessores, portanto, não sai por ali.
+- Imprensa e outras fontes: nenhuma notícia ou documento sobre gasto de gabinete de vereadores de Pelotas. A Câmara noticiou uma sessão representativa sobre o não pagamento de emendas (https://pelotas.rs.leg.br/noticia/sessao-representativa-discute-nao-pagamento-de-emendas/135041b251394e2ca710c899021dc655), que mostra que a execução das emendas é assunto de interesse e reforça o pedido à prefeitura. O SAPL antigo publica relatórios de votação nominal em PDF, mas só do período anterior.
+- Conclusão: para gastos por gabinete (assessores, material, verba) e para o texto de atas e comissões não há outra fonte aberta além do que está nas seções 2 a 4. Os dados abertos do TCE-RS continuam sendo o único substituto parcial para gastos. Se o Henrique mudar de ideia, o item 6 do rascunho 1 é o que mais vale enviar sozinho.
+
 ## 3. Prefeitura de Pelotas
 | Fonte | Endereço | O que traz | Status | Observação |
 |---|---|---|---|---|
@@ -172,8 +180,8 @@ Quando uma fonte não tiver exportação e o robô for proibido, faça um pedido
 "Com base na Lei 12.527/2011, solicito, em formato aberto e legível por máquina (CSV ou planilha), [conjunto de dados] da Câmara Municipal de Pelotas, de [período], contendo [campos]. Solicito também informar se esses dados são publicados periodicamente e em qual endereço."
 Registre cada pedido no PROGRESSO.md com data, número de protocolo e prazo de resposta.
 
-### 6.1 Rascunhos de pedido (preparados na Fase 1; nenhum foi enviado)
-Para o Henrique enviar, se concordar, com o e-mail do projeto (meuvereadorrs@gmail.com). O SIC da Câmara fica em https://cmpelotas.cittaweb.com.br/citta/#/sic/formulario (o ambiente de nuvem não abre esse endereço; abra pelo seu navegador). Depois de enviar, registrar no PROGRESSO.md a data, o protocolo e o prazo.
+### 6.1 Rascunhos de pedido (preparados na Fase 1)
+Situação em 17/11/2026, por informação do Henrique: o rascunho 2 (prefeitura) foi enviado, com o protocolo ainda a registrar no PROGRESSO.md; o rascunho 1 (Câmara) não foi enviado, por decisão dele, depois da busca adicional da seção 2.3, que não achou outro caminho para os gastos por gabinete. Os pedidos saem com o e-mail do projeto (meuvereadorrs@gmail.com). O SIC da Câmara fica em https://cmpelotas.cittaweb.com.br/citta/#/sic/formulario (o ambiente de nuvem não abre esse endereço; abra pelo seu navegador). Depois de enviar, registrar no PROGRESSO.md a data, o protocolo e o prazo.
 
 **Rascunho 1, Câmara Municipal de Pelotas (SIC ou e-mail institucional)**
 "Com base na Lei 12.527/2011, solicito à Câmara Municipal de Pelotas, em formato aberto e legível por máquina (CSV, planilha ou JSON), e informação sobre:
