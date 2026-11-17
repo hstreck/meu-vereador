@@ -46,6 +46,9 @@ Use como checklist do que o site precisa cobrir até a versão completa.
 - D17 (17/11/2026) Pedidos de providências (cerca de 20 mil por ano) não passam por resumo de IA nem ganham página própria: o tema sai de regras escritas e eles aparecem em listas por vereador e por mês. Projetos, pedidos de informações, moções e requerimentos seguem com resumo por IA e página própria. Regras no 07, seção 1.1, e no 05.
 - D18 (17/11/2026) O e-mail exclusivo do projeto e a verificação em duas etapas da conta do GitHub passam da Fase 6 para a Fase 0. O e-mail identifica o robô, assina os pedidos via SIC e recebe pedidos de correção.
 
+- D19 (17/11/2026) E-mail exclusivo do projeto criado pelo Henrique: meuvereadorrs@gmail.com. É o contato público do site (página Sobre, pedidos de correção), a identificação do robô de coleta e o remetente dos pedidos via SIC.
+- D20 (17/11/2026) O projeto não vai avisar a Câmara de que a API pública expõe o CPF dos vereadores. A regra de nunca pedir nem salvar esses campos (D16) continua valendo.
+
 Origem de D12 a D18: análise crítica de 10/11/2026 (documento "Meu Vereador: análise crítica e melhorias"), que o Henrique mandou implementar em 17/11/2026. D12, D13, D14 e D15 mudam escopo e podem ser revertidas por ele a qualquer momento.
 
 ## 4. Decisões pendentes (o guia pergunta na fase indicada)
@@ -54,7 +57,7 @@ Origem de D12 a D18: análise crítica de 10/11/2026 (documento "Meu Vereador: a
 - P3 Se o índice de atividade volta e com que regra e pesos (Fase 5; ver D12 e o 03, seção 3).
 - P4 Lista final de veículos de imprensa local (Fase 5; ponto de partida em D10).
 - P5 Resolvida em D15.
-- P6 Avisar a Câmara, em particular, de que a API pública expõe o CPF dos vereadores (recomendado; no primeiro contato da Fase 1, pela ouvidoria ou por e-mail, sem publicar nada sobre isso).
+- P6 Resolvida em D20.
 
 ## 5. Ideias para o portal (registradas, não priorizadas)
 - Seguir um vereador: aviso por e-mail ou RSS quando ele propõe, vota ou gasta algo novo.

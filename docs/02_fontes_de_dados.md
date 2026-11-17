@@ -10,7 +10,7 @@ Legenda de status:
 ## 1. Regras de acesso (valem para toda coleta)
 - Antes de coletar, leia o robots.txt e os termos de uso do site. Se o robô for proibido, não force: use exportação oficial (CSV, planilha) se houver, ou peça os dados pelo SIC (seção 6).
 - Intervalo mínimo de 2 segundos entre pedidos ao mesmo site, ou o que o robots.txt do site pedir, se for maior: SAPL antigo 60 segundos, dados abertos do TSE 10 segundos. Coleta fora do horário de sessão.
-- Identificação do robô: nome do projeto, endereço do repositório e o e-mail exclusivo do projeto (01, D18). Nunca o e-mail pessoal do Henrique. Enquanto o e-mail do projeto não existir, usar nome e endereço do repositório.
+- Identificação do robô: nome do projeto, endereço do repositório e o e-mail do projeto, meuvereadorrs@gmail.com (01, D19). Nunca o e-mail pessoal do Henrique. Exemplo de identificação: "MeuVereadorBot/0.1 (+https://github.com/hstreck/meu-vereador; meuvereadorrs@gmail.com)".
 - Dados pessoais: nunca pedir nem salvar CPF, e-mail pessoal, telefone ou data de nascimento, mesmo que a fonte entregue (seção 2.1 e 06, seção 3).
 - Prefira, nesta ordem: API ou exportação oficial, página HTML, PDF. PDF escaneado precisa de OCR e conferência manual.
 - Guarde o documento original (ou o link permanente e a data) de tudo que for coletado. O site sempre aponta para a fonte.
@@ -56,7 +56,7 @@ O próprio portal da Câmara busca os dados numa API de dados abertos do sistema
   - Tipos vistos além dos previstos: INDICAÇÃO, EMENDA, PARECER, MEMORANDO.
   - Nomes: o autor da proposição vem com nome parlamentar ("VEREADOR JUNIOR FOX"); a presença vem com nome civil. A coleta mantém uma tabela de identidade que liga os dois pelo id.
 - Campos proibidos: o tipo Pessoa devolve documento (CPF completo, nos 21 vereadores), email e, para alguns, fone, além de nascimento. A coleta nunca pede esses campos (nessa API basta não listá-los na consulta) e nunca os salva. Campos permitidos de Pessoa: id, nome, imagem, biografia. Um teste automático recusa qualquer arquivo em dados/ com sequência no formato de CPF ou telefone (05, seção 3).
-- Pendente para a Fase 1: confirmar voto individual e oradores; confirmar o formato das demais consultas; avisar a Câmara sobre a exposição de CPF (01, P6).
+- Pendente para a Fase 1: confirmar voto individual e oradores; confirmar o formato das demais consultas.
 
 ## 3. Prefeitura de Pelotas
 | Fonte | Endereço | O que traz | Status | Observação |
