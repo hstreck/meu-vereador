@@ -181,7 +181,7 @@ Quando uma fonte não tiver exportação e o robô for proibido, faça um pedido
 Registre cada pedido no PROGRESSO.md com data, número de protocolo e prazo de resposta.
 
 ### 6.1 Rascunhos de pedido (preparados na Fase 1)
-Situação em 17/11/2026, por informação do Henrique: o rascunho 2 (prefeitura) foi enviado, com o protocolo ainda a registrar no PROGRESSO.md; o rascunho 1 (Câmara) não foi enviado, por decisão dele, depois da busca adicional da seção 2.3, que não achou outro caminho para os gastos por gabinete. Os pedidos saem com o e-mail do projeto (meuvereadorrs@gmail.com). O SIC da Câmara fica em https://cmpelotas.cittaweb.com.br/citta/#/sic/formulario (o ambiente de nuvem não abre esse endereço; abra pelo seu navegador). Depois de enviar, registrar no PROGRESSO.md a data, o protocolo e o prazo.
+Situação em 17/11/2026: nenhum dos dois foi enviado. O rascunho 1 (Câmara) foi descartado pelo Henrique, que preferiu antes procurar outras fontes (seção 2.3, que não achou outro caminho para os gastos por gabinete). O rascunho 2 (prefeitura) segue aguardando a decisão dele. Os pedidos saem com o e-mail do projeto (meuvereadorrs@gmail.com). O SIC da Câmara fica em https://cmpelotas.cittaweb.com.br/citta/#/sic/formulario (o ambiente de nuvem não abre esse endereço; abra pelo seu navegador). Depois de enviar, registrar no PROGRESSO.md a data, o protocolo e o prazo.
 
 **Rascunho 1, Câmara Municipal de Pelotas (SIC ou e-mail institucional)**
 "Com base na Lei 12.527/2011, solicito à Câmara Municipal de Pelotas, em formato aberto e legível por máquina (CSV, planilha ou JSON), e informação sobre:
