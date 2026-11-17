@@ -53,7 +53,7 @@ Usar as fotos oficiais publicadas pela Câmara, com crédito. Não usar o brasã
 
 ## 9. Pedido de correção e direito de resposta
 Pelo texto da Lei 13.188/2015, quem se sente ofendido por matéria divulgada tem 60 dias para pedir resposta ou retificação, e o veículo tem 7 dias para publicar antes de caber ação judicial. Se essa lei alcança um site pessoal é pergunta para o advogado (seção 8); o projeto age como se alcançasse, porque custa pouco.
-- Canal: o e-mail exclusivo do projeto (01, D18), informado na página Sobre e em cada página de vereador.
+- Canal: o e-mail do projeto, meuvereadorrs@gmail.com (01, D19), informado na página Sobre e em cada página de vereador.
 - Rotina: o Henrique confere a caixa pelo menos duas vezes por semana.
 - Prazo interno: resposta a quem escreveu em até 5 dias corridos, com uma de três saídas: corrigir o dado, publicar o contexto enviado ao lado do dado, ou explicar por que o dado fica como está, com o link do documento de origem.
 - Registro: toda correção entra na página pública de correções, com data, o que mudou e por quê.
